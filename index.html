@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\font-awesome.min.css">
+    <link rel="icon" href="favicon_io\favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Josefin+Slab:ital,wght@1,700&family=Montserrat:ital@0;1&family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Gourmet-au-Catering</title>
+  </head>
+  <body>
+
+    <!-- start template -->
+
+    <header class="header">
+      <div class="wraper clearfix">
+        <div class="left-wrap">
+            <a href="#home">Gourmet au Catering</a>
+        </div>
+        <div class="right-wrap">
+          <ul class="list">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#menu">Menu</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- banner containt -->
+
+    <section id="home" class="banner">
+      <div class="shadow">
+        <div class="banner-img">
+          <img src="images\hamburger.jpg" alt="hamburger.jpg">
+        </div>
+        <div class="banner-containt">
+          <h4>Le Catering</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- about catering -->
+
+    <section id="about" class="about-containt">
+      <div class="host">
+        <div class="about-wrap">
+         <div class="drow-flex">
+          <div class="first-wrap">
+            <img src="images\tablesetting2.jpg" alt="tablesetting2.jpg">
+          </div>
+          <div class="second-wrap">
+            <h2 class="about-title">About Catering</h2>
+            <h5>Tradition since 1889</h5><br>
+            <p class="about-para">
+              The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class="tag">seasonal</span>  ingredients.
+            </p><br>
+            <p class="about-next">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit,
+              sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+         </div>
+        </div>
+        <hr class="break">
+      </div>
+    </section>
+
+    <!-- menu containt -->
+
+    <section id="menu" class="about-containt">
+      <div class="host">
+        <div class="about-wrap">
+         <div class="drow-flex">
+          <div class="menu-containt">
+            <h1 class="menu-title">Our Menu</h1><br>
+            <h5>Bread Basket</h5><br>
+            <p>Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+            <h5>Honey Almond Granola with Fruits</h5><br>
+            <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+            <h5>Belgian Waffle</h5><br>
+            <p>Vanilla flavored batter with malted flour 7.50</p><br>
+            <h5>Scrambled eggs</h5><br>
+            <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+            <h5>Blueberry Pancakes</h5><br>
+            <p>With syrup, butter and lots of berries 8.50</p>
+          </div>
+          <div class="menu-img">
+            <img src="images\tablesetting.jpg" alt="tablesetting.jpg">
+          </div>
+         </div>
+        </div>
+        <hr class="break">
+      </div>
+    </section>
+
+    <!-- contact containt -->
+
+    <section id="contact" class="contact">
+      <div class="host">
+        <div class="contact-wrap">
+          <h2>Contact</h2><br>
+          <p>
+            We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.
+          </p>
+          <p class="bold"><strong>Catering Service, 42nd Living St, 43043 New York, NY</strong></p>
+          <p>
+            You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:
+          </p>
+          <form class="from" action="index.html" method="post">
+            <input class="width" type="text" name="Name" value="" placeholder="Name">
+            <br><br><br>
+            <input class="width" type="number" name="How Meny People" value="" placeholder="How Meny people">
+            <br><br><br>
+            <input class="width" type="data" name="date" value="" placeholder="26-07-2022 12:33">
+            <br><br><br><br>
+            <input class="width" type="messag" name="messag" value="" placeholder="Message\Special requirements">
+            <br><br><br>
+            <input class="dart" type="submit" name="submit" value="SEND MESSAGE">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- copyright -->
+
+    <div class="copy">
+      <p>Copyright (c) 2022 Copyright Monsa Mondal All Rights Reserved.</p>
+    </div>
+
+    <!-- js link -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(window).scroll(function() {
+        var sticky = $(".header");
+          scroll = $(window) .scrollTop();
+
+        if (scroll >= 100) sticky.addClass('sticky');
+        else sticky.removeClass('sticky');
+      });
+    </script>
+  </body>
+</html>
